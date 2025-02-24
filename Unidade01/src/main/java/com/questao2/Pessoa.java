@@ -15,7 +15,7 @@ public class Pessoa {
     System.out.println("Digite o peso: ");
     peso = scanner.nextDouble();
 
-    double imc = peso / (altura * 2);
+    double imc = peso / (altura * altura);
 
     return imc;
   }
