@@ -5,27 +5,43 @@ public class Papagaio {
     private int idade;
 
     public Papagaio(String nome, int idade) {
+      if (nome.trim().isBlank()) {
+        throw new IllegalArgumentException("Nome inválido");
+      }
+
+      if (idade < 0 || idade > 50) {
+        throw new IllegalArgumentException("Idade inválida");
+      }
+
       this.nome = nome;
       this.idade = idade;
     }
 
-    public void pedirBiscoito() {
-      System.out.println(this.nome + " quer biscoito.");
+    public String pedirBiscoito() {
+      return this.nome + " quer biscoito.";
     }
 
     public String getNome() {
-        return this.nome;
+      return this.nome;
     }
 
     public void setNome(String nome) {
-        this.nome = nome;
+      if (nome.trim().isBlank()) {
+        throw new IllegalArgumentException("Nome inválido");
+      }
+
+      this.nome = nome;
     }
 
     public int getIdade() {
-        return idade;
+      return idade;
     }
 
     public void setIdade(int idade) {
-        this.idade = idade;
+      if (idade < 0 || idade > 50) {
+        throw new IllegalArgumentException("Idade inválida");
+      }
+
+      this.idade = idade;
     }
 }

@@ -1,1 +1,1 @@
-## Aula focada com o objetivo de mostrar a diferença dos atributos públicos e privados, mostrando de forma prática a importância do Encapsulamento na programação orientada à objetos.
+## Aula focada com o objetivo de mostrar a diferença dos atributos públicos e privados, mostrando de forma prática a importância do Encapsulamento na programação orientada à objetos, juntamente com o ensino da funcionalidade de tratamento/lançamento de exceções.
