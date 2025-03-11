@@ -1,0 +1,1 @@
+## Aula voltada para a prática de código com a criação e definição da classe Funcionario que executa o método de cálculo do imposto de renda de pessoa física.
