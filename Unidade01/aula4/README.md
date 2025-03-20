@@ -1,0 +1,1 @@
+## Aula voltada com foco sobre Qualidade e Testes Unitários, destacando para o uso do JUnit, sendo este o framework utilizado para rodar testes automatizados com a linguagem Java.
